@@ -1,0 +1,246 @@
+.Sectionone {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+}
+.Sectionone .box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Sectionone .box h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.Sectionone .box form {
+  display: block;
+}
+.Sectionone .box form input {
+  width: 400px;
+  height: 60px;
+}
+.Sectionone .box form button {
+  width: 100px;
+  height: 60px;
+  background-color: blue;
+}
+.Sectionone img {
+  width: 40%;
+  flex-wrap: wrap;
+}
+
+.Footer {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(0, 0, 0);
+}
+.Footer .boxone {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer .boxone img {
+  width: 10%;
+}
+.Footer .boxtwo {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer .boxtwo nav {
+  width: 60%;
+}
+.Footer .boxtwo nav ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Footer .boxtwo nav ul li {
+  width: 16%;
+}
+.Footer .boxtwo nav ul li a {
+  color: aliceblue;
+  margin-top: 15px;
+  text-decoration: none;
+}
+.Footer .boxthree {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer .boxthree i {
+  color: aliceblue;
+  font-size: 20px;
+}
+.Footer .boxfour {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer .boxfour h5 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.side-bar {
+  width: 200px;
+  height: 100vh;
+  background-color: brown;
+  top: 0;
+  left: 0;
+  position: fixed;
+  overflow-y: auto;
+}
+
+.side-bar .menu {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.side-bar .menu .item {
+  position: relative;
+}
+
+.side-bar .menu .item a {
+  color: aliceblue;
+  background-color: chartreuse;
+  font-size: 15px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 30px;
+  line-height: 50px;
+}
+
+.side-bar .menu .item a:hover {
+  background-color: brown;
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item a .increment {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item .sub-menu {
+  background-color: rgb(0, 0, 0);
+}
+
+.Sectionone {
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+}
+.Sectionone .box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Sectionone .box h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.Sectionone .box form {
+  display: block;
+}
+.Sectionone .box form input {
+  width: 400px;
+  height: 60px;
+}
+.Sectionone .box form button {
+  width: 100px;
+  height: 60px;
+  background-color: blue;
+}
+.Sectionone img {
+  width: 40%;
+  flex-wrap: wrap;
+}
+
+.Footer {
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(0, 0, 0);
+}
+.Footer .boxone {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer .boxone img {
+  width: 10%;
+}
+.Footer .boxtwo {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer .boxtwo nav {
+  width: 60%;
+}
+.Footer .boxtwo nav ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Footer .boxtwo nav ul li {
+  width: 16%;
+}
+.Footer .boxtwo nav ul li a {
+  color: aliceblue;
+  margin-top: 15px;
+  text-decoration: none;
+}
+.Footer .boxthree {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer .boxthree i {
+  color: aliceblue;
+  font-size: 20px;
+}
+.Footer .boxfour {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer .boxfour h5 {
+  font-family: "Courier New", Courier, monospace;
+}/*# sourceMappingURL=style.css.map */
